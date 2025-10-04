@@ -95,3 +95,14 @@ button:hover {
 .dot.red { background: #ff5f56; }
 .dot.yellow { background: #ffbd2e; }
 .dot.green { background: #27c93f; }
+
+/* subtitle */
+
+.subtitle {
+  margin-top: 1rem;
+  text-align: center;
+  color: #c78af9;
+  font-size: 1.1rem;
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: 0.02em;
+}

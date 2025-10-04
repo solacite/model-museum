@@ -2,11 +2,17 @@ const models = [
   "models/lobbydraft.glb"
 ];
 
+const subtitles = [
+  "wk 5: coin"
+];
+
 let currentIndex = 0;
 const viewer = document.getElementById("viewer");
+const subtitleDiv = document.querySelector('.subtitle');
 
 function showModel(index) {
   viewer.src = models[index];
+  subtitleDiv.textContent = subtitles[index];
 }
 
 document.getElementById("prev").onclick = function() {
