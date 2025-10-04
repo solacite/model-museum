@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>model museum</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+<body>
+
+  <div class="carousel-container">
+    <button id="prev" aria-label="prev">&#8592;</button>
+    <model-viewer id="viewer"
+                  src="models/model1.glb"
+                  alt="3D Model"
+                  camera-controls
+                  auto-rotate
+                  background-color="#222"
+                  shadow-intensity="1"
+                  style="width: 600px; height: 400px;">
+    </model-viewer>
+    <button id="next" aria-label="next">&#8594;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
