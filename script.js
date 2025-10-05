@@ -1,5 +1,5 @@
 const models = [
-  "models/lobbydraft.glb"
+  "models/coin.glb"
 ];
 
 const subtitles = [
