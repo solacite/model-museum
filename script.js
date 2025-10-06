@@ -1,9 +1,11 @@
 const models = [
-  "models/coin.glb"
+  "models/coin.glb",
+  "models/claw_machine.glb"
 ];
 
 const subtitles = [
-  "wk 5: coin"
+  "wk 5: coin",
+  "wk 5: coin [slot]"
 ];
 
 let currentIndex = 0;
